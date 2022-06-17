@@ -38,3 +38,9 @@ for  x in 1...marks.count-1{ 
         index = x 
     } 
 }  
+print(" ") 
+print("1. Minimum grade is \(min) ") 
+print("2. Student with max grade is " + students[max] + " with \(marks[max]) marks") 
+print("3. Number of students who failed : \(failed)") 
+print("4. Students who scored more than 90 : ", topper) 
+print("5. Average of Marks is \(avg) and the student with marks closes to averge is " + students[index] + " with \(marks[index]) marks") 
